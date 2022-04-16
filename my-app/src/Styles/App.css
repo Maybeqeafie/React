@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../img/gr156_1920_1080.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 1200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post {
+    color: white;
+    width: 800px;
+    padding: 15px;
+    margin-top: 15px;
+    /*border: 3px solid rgb(119, 0, 255);*/
+    background: rgba(0, 0, 0, 0.51);
+    justify-content: start;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.postBtns.MyButton{
+    margin-top: 100px;
+}
+
+.postContent {
+    display: flex;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.postInfo {
+    font-family: Arial;
+}
+
+.postInfo strong {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.comment {
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    min-width: 700px;
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #67209F;
+    color: black;
+    /*color: rgba(122, 122, 122, 0.47);*/
+}
+
+.coommentbtns {
+    color: #67209F;
+    background: rgba(250, 194, 30, 0);
+    border: 0px;
+    cursor: pointer;
+}
+
+
